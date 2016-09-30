@@ -1,0 +1,2 @@
+cc -Wall -g -DNDUBUG -c -o ext22.o ext22.c
+cc -Wall -g -DNDUBUG  ext22_main.c ext22.o -o ext22_main
